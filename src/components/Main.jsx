@@ -1,4 +1,5 @@
 import React from "react";
+import AllCars from "./AllCars";
 
 export default function Main() {
   return (
@@ -18,6 +19,13 @@ export default function Main() {
           </li>
           <li>
             We write components with jsx. Jsx is JavaScript that returns HTML
+          </li>
+          <li>
+            To create a functional component, use React Snippets shortcut: RFC
+          </li>
+          <li>
+            Return your component wrapped in a jsx fragment{" "}
+            <code>{"<> </>"}</code>
           </li>
         </ul>
       </div>
@@ -47,6 +55,8 @@ export default function Main() {
           </li>
         </ul>
       </div>
+
+      <AllCars />
     </main>
   );
 }
